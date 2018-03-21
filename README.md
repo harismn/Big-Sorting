@@ -8,8 +8,8 @@
 
 * code *
 
-
-* function bigSorting(arr) {
+```
+ function bigSorting(arr) {
     // Complete this function
     let berurut = arr.sort((a,b) => {
         if(a.length == b.length){
@@ -23,7 +23,8 @@
     })
         console.log(berurut.join('\n'))
     }
-
+```
 * how to run the program *
-
+```
 $ node big_Sorting.js
+```
