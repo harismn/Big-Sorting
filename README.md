@@ -1,13 +1,15 @@
 # Big-Sorting
 
-* Problem Name : bigSorting *
+** Problem Name : bigSorting **
 
 * Author: _mfv_*
 
 * url: https://www.hackerrank.com/challenges/big-sorting/problem *
 
 * code *
-unction bigSorting(arr) {
+
+
+* function bigSorting(arr) {
     // Complete this function
     let berurut = arr.sort((a,b) => {
         if(a.length == b.length){
